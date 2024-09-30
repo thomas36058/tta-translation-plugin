@@ -24,7 +24,7 @@ function tta_translate_strings($texts, $target_language) {
     $data = [
         'l_from' => 'en',
         'l_to' => $target_language,
-        'request_url' => 'http://localhost:8883/',
+        'request_url' => get_site_url(),
         'words' => $words
     ];
 
