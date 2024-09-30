@@ -63,3 +63,7 @@ Returns an array of available languages for translation.
 
 - WordPress 5.0 or higher.
 - PHP 7.0 or higher.
+
+## Todos
+
+- Use the .env file to securely leave the api key
