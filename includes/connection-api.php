@@ -33,7 +33,7 @@ function tta_translate_strings($texts, $target_language) {
 
     // cURL options
     curl_setopt_array($curl, [
-        CURLOPT_URL => 'https://api.weglot.com/translate?api_key=wg_2fb37d56bdb5d97307b6a1d9bc1b53b45',
+        CURLOPT_URL => 'https://api.weglot.com/translate?api_key=WEGLOT_API_KEY',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
