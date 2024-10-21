@@ -25,7 +25,7 @@ function tta_add_weglot_script() {
         document.addEventListener("DOMContentLoaded", function() {
             if (typeof Weglot !== 'undefined') {
                 Weglot.initialize({
-                    api_key: 'wg_2fb37d56bdb5d97307b6a1d9bc1b53b45'
+                    api_key: 'WEGLOT_KEY'
                 });
             } else {
                 console.error('Weglot is not defined');
